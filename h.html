@@ -4,11 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            background: #ed87216d;
+        }
+        .cont{
+            background-color: #e87b0fb9;
+            margin: 70px;
+            margin-left: 400px;
+            padding: 10px;
+            justify-content: center;
+            text-align: center;
+            align-content: center;
+            width: 400px ;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 18px;
+        }
+        .btn{
+            padding-top: 50px;
+        }
+        button{
+            border: none;
+            padding: 5px;
+            padding-inline: 10px;
+            border-radius: 4px;
+        }
+        button:hover{
+           background-color: #ff7300;
+           color: #ffffff;
+        }
+    </style>
 </head>
 <body>
-    <p>hi</p>
-    <p>hello</p>
-    <p>world</p>
-    <p>nice</p>
+    <div class="cont">
+        <div class="h1">
+               <h1 id="myh1">WELCOME</h1>
+        </div>
+   <div class="inp">
+    <label for="">Username : </label>
+   <input type="text" id="mytext">
+   </div>
+   <div class="btn">
+        <button type="submit" id="mysubmit">Submit</button>
+   </div>
+        </div>
+
+   <script src="test.js"></script>
 </body>
 </html>
